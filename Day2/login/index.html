@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login !</title>
+    <style type="text/css">
+        div{
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+            margin: 0 auto;
+            padding:120px ;
+            box-sizing: border-box;
+
+        }
+
+
+    </style>
+</head>
+<body>
+   <center> <h1>Welcome to the Login Page</h1></center> 
+   <hr>
+   <div>
+       username:<br>
+       <input type="text" name="text" id="username">
+       <br><br>
+       password:<br>
+       <input type="password" name="text" id="password">
+       <br><br>
+
+       <button onclick="login()">Submit</button>
+
+   </div>
+   <script type="text/javascript">
+       function login(){
+           var uname=document.getElementById('username').value;
+           var pass=document.getElementById('password').value;
+           if(uname=="world" &&  pass=="123"){
+               location.assign("");
+           }
+           else{
+               window.alert("Login Failed");
+           }
+
+       }
+
+
+   </script>
+    
+</body>
+</html>

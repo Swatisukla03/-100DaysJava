@@ -28,5 +28,12 @@ public class typeCasting {
     System.out.println(num1);
     System.out.println(num2);
     // System.out.println();
+    System.out.println(++num1);
+    
+
+
+
+
+    
     }
 }
